@@ -1,11 +1,11 @@
 /*Commments are written different in css, as it is a different coding style*/
 
 body{
-    background-color:rgb(70, 107, 70);
+    background-color:rgb(142, 187, 142);
 }
 
 /*this will apply styles to all images on your page*/
 img{
     /*only style one dimension - width or height - to keep the image ratio*/
-    width:350px;
+    height:400px;
 }
