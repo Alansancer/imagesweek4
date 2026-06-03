@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Contactign my home (links and images)</title>
+</head>
+<body>
+    <header>
+        <h1>More about Mexico</h1>
+    </header>
+    <nav>
+        <!--nav section is organized in a list to easy access-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!--external pages need the full address... use "_blank" to open in a new tab-->
+            <li><a href="https://www.youtube.com/watch?v=ZZ5LpwO-An4&list=PLV2ewAgCPCq0DVamOw2sQSAVdFVjA6x78"
+                 target="_blank">Secrets</a></li>
+        </ul>
+    <main>
+        <!--HTML forms lets user enter information into your site-->
+        <form>
+            <!--section will help us divide and organize our stuff on the website-->
+            <section>
+            <!--form botton will submitt everything that will be written inside of it, for different stuff have different from-->
+            <!--something to have in mind is that the input has to have a label, to help the usser knwo what it is-->
+            <!--to link the lable with the inpt, us 'for' on the label matching the 'id' on the input-->
+            <label for="name">Name:</label>
+            <input id="name" type="text">
+            <!--REMEMEBR THAT LABEL IS HOW THE BOX IS CALLED, FOR IS USED TO REFERENCE THE ID TO HELP LINK AND MAKE OVERALL
+            NAVIGATION EASIER-->
+            <!--with input, you can specify different types-->
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+            </section>
+                <!--the creation of a different section suggest the website to put all the block of information onto the next field-->
+                <section>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass">
+
+                <label for="when">When?</label>
+                <input id="when" type="date">
+
+                <label for="how">How?</label>
+                <input type="how" id="how">
+                </section>
+        </form>
+    </main>
+</body>
+</html>
